@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contacto [
+<!ELEMENT contacto (nombre,direccion,medios_contacto)>
+<!ELEMENT direccion (calle,cp,ciudad)>
+<!ELEMENT medios_contacto (telfijo,telmovil,email)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT telfijo (#PCDATA)>
+<!ELEMENT telmovil (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+<contacto>
+<nombre>Antonio Planas Garcia</nombre>
+<direccion>
+<calle>Calle Luis Bretón</calle>
+<cp>50005</cp>
+<ciudad>Zaragoza</ciudad>
+</direccion>
+<medios_contacto>
+<telfijo>976856060</telfijo>
+<telmovil>648568778</telmovil>
+<email>antoniopg@gmail.com</email>
+</medios_contacto>
+</contacto>

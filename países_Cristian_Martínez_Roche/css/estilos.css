@@ -1,0 +1,62 @@
+/*Disposición de imágenes página principal*/
+.contenedor-paises{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+/*Disposición de fotos*/
+.foto-pais{
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+    border: 5px solid white;  
+}
+.foto-pais:hover{
+    transform: scale(1.2,1.2);
+}
+/*Dimensiones banderas GIF*/
+.foto-bandera{
+    width: 150px;
+    height: 100px;
+
+}
+/*Colores de banderas*/
+.francia-azul { background-color: #0055A4; }
+.francia-rojo { background-color: #EF4135; }
+.letonia-rojo { background-color: #9D2235; }
+.noruega-rojo { background-color: #BA0C2F; }
+.noruega-azul { background-color: #00205B; }
+.blanco       { background-color: #FFFFFF; }
+
+/*Ajustes de la tabla Noruega*/
+/* Quitamos bordes y espacios para que los bloques se toquen */
+table.bandera{
+    border-collapse: collapse; 
+    border: 1px solid #333; /* Borde exterior fino para enmarcar */
+    margin: 20px auto;
+}
+/*Bandera Francia*/
+/*Definición de columnas*/
+.col-francia {height: 160px;
+              width: 70px;}/*Columnas enteras de banderas Francia*/
+
+/*Bandera Letonia*/
+/*Definición filas*/
+.fila-letonia-grande{height: 65px;
+                      width: 210px;}/*Fila ancha bandera Letonia*/
+.fila-letonia-fina{height: 30px;
+                      width: 210px;}/*Fila ancha bandera Letonia*/
+                    
+/*Bandera Noruega*/
+/*Definición de alturas (Filas)*/
+.fila-grande { height: 60px; }
+.fila-borde  { height: 10px; } /* Franja blanca */
+.fila-cruz   { height: 20px; } /* Franja azul central */
+
+/*Definición de anchuras (Columnas)*/
+.col-corta   { width: 60px; }  /* Cuadrado rojo izquierda */
+.col-borde   { width: 10px; }  /* Franja blanca */
+.col-cruz    { width: 20px; }  /* Franja azul central */
+.col-larga   { width: 120px; } /* Rectángulo rojo derecha (es más largo) */
+
+

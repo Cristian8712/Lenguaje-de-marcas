@@ -1,0 +1,92 @@
+header{
+    background-color: brown;
+    color: aliceblue;
+    height: 150px;
+}
+nav{
+    background-color: chartreuse;
+    color: blueviolet;
+    height: 100px;
+}
+section{
+    background-color: cadetblue;
+    color: blue;
+    height: 500px;
+}
+aside{
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+.capa1:hover{
+    transform: translate(50px,100px);
+}
+.capa1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}.capa2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 246, 102);
+}
+.capa2:hover{
+    transform: rotate(20deg);
+}
+.capa3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(246, 25, 55);
+    transition: scale 2s;
+}
+.capa3:hover{
+    transform:scale(2,2);
+}
+.capa4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(202, 246, 25);
+}
+.capa4:hover{
+    transform: translate(25px,50px) rotate(30deg);
+}
+button{
+    background-color: blueviolet;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 2s, box-shadow 2s;
+}
+button:hover{
+    background-color: aquamarine;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+
+}
+.capa5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(246, 40, 57);
+    border-radius: 5px;
+}
+.capa5--girar{
+    animation-name: animacion-girar;
+    animation-duration: 3s;
+}
+@keyframes animacion-girar{
+    0%{
+        transform: rotate(0deg);
+        background-color: rgb(246, 40, 57);
+    }
+    50%{
+        transform: rotate(360deg);
+        background-color: rgb(40, 201, 246);
+    }
+    100%{
+        transform: rotate(0deg);
+        background-color: rgb(246, 40, 57);
+    }
+}

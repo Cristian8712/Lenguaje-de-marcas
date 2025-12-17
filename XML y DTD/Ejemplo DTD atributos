@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colegio[
+<!ELEMENT colegio (alumnos,profesores)>
+<!ELEMENT profesores (departamento,aula)>
+<!ELEMENT alumnos (#PCDATA)>
+<!ELEMENT departamento (#PCDATA)>
+<!ELEMENT aula (#PCDATA)>
+<!ATTLIST alumnos nombre CDATA #REQUIRED>
+<!ATTLIST alumnos dni CDATA #REQUIRED>
+]>
+<colegio>
+<alumnos nombre="" dni=""></alumnos>
+<profesores>
+<departamento></departamento>
+<aula></aula>
+</profesores>
+</colegio>

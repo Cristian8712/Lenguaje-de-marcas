@@ -1,0 +1,110 @@
+body{
+    background-color:rgb(250, 255, 185);
+    color: rgb(129, 6, 244);
+}
+.letra{
+    color:rgb(149, 205, 254);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+#letraid{
+    color: black;
+    font-size: 30px;
+    border: solid 2px yellow;
+    border-radius: 15px;
+    width: 300px;
+    height: 70px;
+    padding: 20px;
+
+}
+.fiesta{
+    color:red;
+    font-size: 22px;
+    font-weight: bolder;
+    border-top: dotted 3px orange;
+    border-right: solid 2px palevioletred;
+    border-bottom: dashed 2px blue;
+    border-left: solid 2px brown;
+    padding: 10px;
+}
+.alineacion{
+    text-align: center;
+    width: 200px;
+}
+.tarjeta{
+    width: 300px;
+    background-color: aquamarine;
+    border: solid 1px gray;
+    border-radius: 8px;
+    text-align: center;
+}
+img{
+    width: 180px;
+    border-radius: 50%;
+}
+h3{
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.descripcion{
+    color: burlywood;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.edad{
+    color: coral;
+    font-size: x-large;
+    font-weight:bolder;
+    text-align: center;
+}
+button{
+    width: 100%;
+    background-color: chartreuse;
+    color: rgb(90, 7, 225);
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(0, 254, 208);
+    font-size: 20px;
+
+}
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*
+a:link{}
+a:visited{}
+a:*/
+
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: square;
+
+}
+ol{
+    list-style-type: lower-roman;
+}
+/*ol{
+    list-style-image: url(../img/foto.webp);
+}*/
+ul.horizontal li{
+    display: inline-block;
+    margin-right: 40px;
+    background-color: rgb(250, 180, 129);
+}
+ul.h_moderno{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}

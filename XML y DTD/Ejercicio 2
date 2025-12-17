@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viaje [
+<!ELEMENT viaje (compañia,num_vuelo,nombre_trayecto,origen,destino,ruta,hora_salida,hora_llegada)>
+<!ELEMENT compañia EMPTY>
+<!ELEMENT num_vuelo EMPTY>
+<!ELEMENT nombre_trayecto EMPTY>
+<!ELEMENT origen EMPTY>
+<!ELEMENT destino EMPTY>
+<!ELEMENT ruta EMPTY>
+<!ELEMENT hora_salida EMPTY>
+<!ELEMENT hora_llegada EMPTY>
+]>
+<viaje>
+<compañia/>
+<num_vuelo/>
+<nombre_trayecto/>
+<origen/>
+<destino/>
+<ruta/>
+<hora_salida/>
+<hora_llegada/>
+</viaje>

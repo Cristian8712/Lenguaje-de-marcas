@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas [
+<!ELEMENT recetas (nombre,ingredientes)>
+<!ELEMENT ingredientes (nombreproducto,cantidad,fecha_creacion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nombreproducto EMPTY>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT fecha_creacion ANY>
+]>
+<recetas>
+  <nombre>Bizcocho</nombre>
+<ingredientes>
+  <nombreproducto/>
+  <cantidad>250gr</cantidad>
+  <fecha_creacion>12/10/2025</fecha_creacion>
+</ingredientes>
+</recetas>

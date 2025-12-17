@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colegio [
+<!ELEMENT colegio (alumnos,profesores,asignatura)>
+<!ELEMENT alumnos (dni,pasaporte,nombre,apellidos,fecha_nacimiento,direccion_postal,telefonos,correo_electronico,asignaturas_matriculado)>
+<!ELEMENT profesores (dni,pasaporte,nombre,apellidos,fecha_nacimiento,direccion_postal,telefonos,correo_electronico,despacho,horarios_tutoria,asignaturas)>
+<!ELEMENT asignatura (codigo_asignatura,horas_asignatura,ciclo,curso)>
+<!ELEMENT direccion_postal (calle,numero,cp,localidad)>
+<!ELEMENT telefonos (telmovil,telfijo)>
+<!ELEMENT correos_electronicos (email_1,email_2)>
+<!ELEMENT asignaturas_matriculado (nombre_asignatura,nota_asignatura)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT pasaporte (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fecha_nacimiento ANY>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT telmovil (#PCDATA)>
+<!ELEMENT telfijo EMPTY>
+<!ELEMENT email_1 (#PCDATA)>
+<!ELEMENT email_2 EMPTY>
+<!ELEMENT despacho (#PCDATA)>
+<!ELEMENT horarios_tutoria (#PCDATA)>
+<!ELEMENT asignaturas (#PCDATA)>
+<!ELEMENT codigo_asignatura (#PCDATA)>
+<!ELEMENT horas_asignatura (#PCDATA)>
+<!ELEMENT ciclo (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+]>
+<colegio>
+<alumnos>
+<dni/>
+<pasaporte/>
+<nombre/>
+<apellidos/>
+<fecha_nacimiento/>
+<direccion_postal>
+<calle/>
+<numero/>
+<cp/>
+<localidad/>
+</direccion_postal>
+<telefonos>
+<telmovil/>
+<telfijo/>
+</telefonos>
+<correos_electronicos>
+<email_1/>
+<email_2/>
+</correos_electronicos>
+<asiganturas_matriculado>
+<nombre_asignatura/>
+<nota_asignatura/>
+</asiganturas_matriculado>
+</alumnos>
+<profesores>
+<dni/>
+<pasaporte/>
+<nombre/>
+<apellidos/>
+<fecha_nacimiento/>
+<direccion_postal>
+<calle/>
+<numero/>
+<cp/>
+<localidad/>
+</direccion_postal>
+<telefonos>
+<telmovil/>
+<telfijo/>
+</telefonos>
+<correos_electronicos>
+<email_1/>
+<email_2/>
+</correos_electronicos>
+<despacho/>
+<horarios_tutoria/>
+</profesores>
+<asignatura>
+<codigo_asignatura/>
+<horas_asignatura/>
+<ciclo/>
+<curso/>
+</asignatura>
+</colegio>

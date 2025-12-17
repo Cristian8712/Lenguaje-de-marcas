@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos_personales[
+<!ELEMENT datos_personales (dni,nombre,apellidos,fecha_nacimiento,direccion_postal,telefonos,cuentas_correo)>
+<!ELEMENT direccion_postal (calle,numero,poblacion,pais,codigo_postal)>
+<!ELEMENT telefonos (telmovil,telfijo)>
+<!ELEMENT cuentas_correo (email_1,email_2)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fecha_nacimiento ANY>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT telmovil (#PCDATA)>
+<!ELEMENT telfijo EMPTY>
+<!ELEMENT email_1 (#PCDATA)>
+<!ELEMENT email_2 EMPTY>
+]>
+<datos_personales>
+<dni>11223344A</dni>
+<nombre>Antonio</nombre>
+<apellidos>Planas Garcia</apellidos>
+<fecha_nacimiento>22/10/1980</fecha_nacimiento>
+<direccion_postal>
+<calle>Calle Luis Bretón</calle>
+<numero>25</numero>
+<poblacion>Zaragoza</poblacion>
+<pais>España</pais>
+<codigo_postal>50005</codigo_postal>
+</direccion_postal>
+<telefonos>
+<telmovil>665484548</telmovil>
+<telfijo/>
+</telefonos>
+<cuentas_correo>
+<email_1>antoniopg@gmail.com</email_1>
+<email_2/>
+</cuentas_correo>
+</datos_personales>
