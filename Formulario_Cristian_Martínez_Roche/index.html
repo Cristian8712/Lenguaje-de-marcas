@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo_formulario.css">
+</head>
+<style>
+    body{
+        background-image:url(imag/fondo-claro.png);
+        text-align: center;}
+</style>
+<body>
+    <h1>Formulario de registro</h1>
+    <p></p>
+    <div class="contenedor">
+    <form action="formulario.php" method="post" id="formulario" name="formulario">
+        Nombre:
+        <br>
+        <input type="text" name="nombre" id="nombre" placeholder="Ponga su nombre completo">
+        <br>
+        Email:
+        <br> 
+        <input type="email" id="email" name="email" required placeholder="nombre@ejemplo.com">
+        <br>
+        Contraseña:
+        <br>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="Mínimo 8 caracteres">
+        <br>
+        Teléfono: 
+        <br>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ej. 600 123 456">
+        <br>
+        Fecha de nacimiento:
+        <br>
+        <input type="date">
+        <br>
+        Género: 
+        <br>
+        <input type=radio name="Género">Mujer 
+        <input type=radio name="Género">Hombre
+        <input type=radio name="Género">Prefiero no decirlo
+        <br>
+        Estado civil: 
+        <br>
+        <input type=radio name="Estado_civil">Soltero/a 
+        <input type=radio name="Estado_civil">Casado/a
+        <input type=radio name="Estado_civil">Divorciado/a
+        <input type=radio name="Estado_civil">Viudo/a
+        <br>
+        Tipo de cuenta: 
+        <br>
+        <input type=radio name="tipo_cuenta">Personal 
+        <input type=radio name="tipo_cuenta">Empresarial
+        <input type=radio name="tipo_cuenta">Educativa
+        <br>
+        Elija su color favorito:
+        <br>
+        <input type="color" name="color" id="color">
+        <br>
+        Selecciona categoría:
+        <br>
+        <select name="categoría" id="categoría" size="1" multiple>
+                <option value="">Informática</option>
+                <option value="">Videoconsolas</option>
+                <option value="">TV</option>
+                <option value="">Periféricos</option>
+        </select>
+        <br>
+        Indique su nivel de satisfacción con los productos (valore entre 1-10):
+        <br>
+        <input type="range" min="1" max="10" step="1" value="5">
+        <br>
+        Comentarios y sugerencias.
+        <br>
+        <textarea name="Comentarios" id="Comentarios" rows="5" cols="50" placeholder="Escribe aquí....">
+        </textarea>
+        <br>
+        He leído y acepto los términos y condiciones. <input type="checkbox" name="Términos" id="Términos" required>
+        <br>
+        <div class="boton-contenedor">
+       <button type="submit" class="boton boton-enviar">Enviar</button>
+       <button type="reset" class="boton boton-eliminar">Eliminar</button>
+       </div>
+    </form>
+    </div>
+</body>
+</html>
